@@ -1,0 +1,14 @@
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/bin/Debug/net9.0/ExtraVert
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/bin/Debug/net9.0/ExtraVert.deps.json
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/bin/Debug/net9.0/ExtraVert.runtimeconfig.json
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/bin/Debug/net9.0/ExtraVert.dll
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/bin/Debug/net9.0/ExtraVert.pdb
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ExtraVert.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ExtraVert.AssemblyInfoInputs.cache
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ExtraVert.AssemblyInfo.cs
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ExtraVert.csproj.CoreCompileInputs.cache
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ExtraVert.dll
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/refint/ExtraVert.dll
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ExtraVert.pdb
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ExtraVert.genruntimeconfig.cache
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ref/ExtraVert.dll
