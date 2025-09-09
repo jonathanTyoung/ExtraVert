@@ -12,3 +12,4 @@
 /Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ExtraVert.pdb
 /Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ExtraVert.genruntimeconfig.cache
 /Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ref/ExtraVert.dll
+/Users/jonyoung/workspace/dotnet-projects/ExtraVert/obj/Debug/net9.0/ExtraVert.sourcelink.json
