@@ -3,17 +3,17 @@ using System;
 
 namespace ExtraVert.Models
 {
-    // Define the custom type
     public class Plant
     {
-        // Define the properties that will be on each object of this type
+        // Properties
         public string Name { get; set; }
         public string Species { get; set; }
         public string LightNeeds { get; set; }
         public string WaterNeeds { get; set; }
         public decimal Price { get; set; }
+        public DateTime AcquisitionDate { get; set; }
 
-        // The constructor (i.e. what happens when a new object is created)
+        // Constructor
         public Plant(string name, string species, string lightNeeds, string waterNeeds, decimal price)
         {
             Name = name;
@@ -21,16 +21,28 @@ namespace ExtraVert.Models
             LightNeeds = lightNeeds;
             WaterNeeds = waterNeeds;
             Price = price;
+            AcquisitionDate = DateTime.Now;
         }
 
-        // A method that is available on every generated object
-        public void DisplayInfo()
+        // Methods
+        public virtual void DisplayInfo()
         {
             Console.WriteLine($"Name: {Name}");
             Console.WriteLine($"Species: {Species}");
             Console.WriteLine($"Light Needs: {LightNeeds}");
             Console.WriteLine($"Water Needs: {WaterNeeds}");
             Console.WriteLine($"Price: ${Price}");
+            Console.WriteLine($"Acquisition Date: {AcquisitionDate.ToShortDateString()}");
+        }
+
+        public virtual string GetPlantType()
+        {
+            return "Generic Plant";
+        }
+
+        public virtual void Water()
+        {
+            Console.WriteLine($"Watering {Name} according to its {WaterNeeds} water needs.");
         }
     }
 }

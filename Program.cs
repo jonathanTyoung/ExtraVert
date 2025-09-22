@@ -10,10 +10,6 @@ namespace ExtraVert
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to ExtraVert Plant Nursery Management System!");
-            Console.WriteLine("------------------------------------------------");
-            Console.WriteLine();
-
             // Initialize our repository and seed it with data
             PlantRepository plantRepo = new PlantRepository();
             plantRepo.SeedData();
@@ -40,6 +36,7 @@ namespace ExtraVert
                         Console.WriteLine("----------");
                         foreach (Plant plant in plantRepo.GetAllPlants())
                         {
+                            Console.WriteLine($"Plant Type: {plant.GetPlantType()}");
                             plant.DisplayInfo();
                             Console.WriteLine();
                         }
@@ -54,7 +51,29 @@ namespace ExtraVert
                         break;
 
                     case 3: // Search for Plants
-                        Console.WriteLine("This feature will be implemented in a future chapter.");
+                        Console.Clear();
+                        Console.Write("Enter search term: ");
+                        string searchTerm = Console.ReadLine();
+
+                        var searchResults = plantRepo.SearchPlants(searchTerm);
+
+                        Console.WriteLine($"\nSearch Results for '{searchTerm}':");
+                        Console.WriteLine("-------------------------");
+
+                        if (searchResults.Count == 0)
+                        {
+                            Console.WriteLine("No plants found matching your search term.");
+                        }
+                        else
+                        {
+                            foreach (Plant plant in searchResults)
+                            {
+                                Console.WriteLine($"Plant Type: {plant.GetPlantType()}");
+                                plant.DisplayInfo();
+                                Console.WriteLine();
+                            }
+                        }
+
                         Console.WriteLine("Press any key to continue...");
                         Console.ReadKey();
                         break;
