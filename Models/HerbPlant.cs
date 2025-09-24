@@ -35,7 +35,7 @@ namespace ExtraVert.Models
         // Override the GetPlantType method
         public override string GetPlantType()
         {
-            return "Foliage Plant";
+            return "Herb Plant";
         }
 
         // Add a method specific to foliage plants

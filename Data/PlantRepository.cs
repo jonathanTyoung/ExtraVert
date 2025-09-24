@@ -103,6 +103,27 @@ namespace ExtraVert.Data
                 "Green",
                 false,
                 "Oval"));
+                // Cactus plants
+            _plants.Add(new Cactus(
+                "Saguaro Cactus",
+                "Carnegiea gigantea",
+                "Full sun",
+                "Very low",
+                45.99m,
+                true,
+                "2-3 inches",
+                true));
+
+            // Tree plants
+            _plants.Add(new Tree(
+                "Japanese Maple",
+                "Acer palmatum",
+                "Partial shade to full sun",
+                "Moderate",
+                89.99m,
+                8.5,
+                true,
+                "Smooth, gray-brown"));
         }
     }
 }
