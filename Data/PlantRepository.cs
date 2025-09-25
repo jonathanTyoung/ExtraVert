@@ -103,7 +103,7 @@ namespace ExtraVert.Data
                 "Green",
                 false,
                 "Oval"));
-                // Cactus plants
+            // Cactus plants
             _plants.Add(new Cactus(
                 "Saguaro Cactus",
                 "Carnegiea gigantea",
@@ -124,6 +124,17 @@ namespace ExtraVert.Data
                 8.5,
                 true,
                 "Smooth, gray-brown"));
+
+            // Flower plants
+           _plants.Add(new Flower(
+                "Peony",
+                "Paeonia lactiflora",
+                "Full sun to partial shade",
+                "Moderate to high",
+                14.99m,
+                true,
+                "6-8 inches",
+                true));
         }
     }
 }
